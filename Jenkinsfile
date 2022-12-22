@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') 
     {
       steps {
-        git credentialsId: 'githubcredentials', url: 'https://github.com/dlfarande/jenkins_pipelines.git'
+        git credentialsId: 'githubcredentials', url: 'https://github.com/dlfarande/Jenkinsfile_raj_training.git'
       }
     }
     stage('Docker Build') {
